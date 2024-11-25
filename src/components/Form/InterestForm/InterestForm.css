@@ -1,0 +1,72 @@
+.interests {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+span.interest {
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 50px;
+    margin: 5px;
+    font-family: 'Calibri', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.interest__input {
+    display: flex;
+    flex-direction: row;
+}
+
+input.input__interest {
+    border: none;
+    border-bottom: 1px solid #49535c;
+    width: 100px;
+}
+
+input.input__interest:focus {
+    border: none;
+    border-bottom: 2px solid #0056b3;
+    width: 100px;
+}
+
+p.form__p {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.remove__btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #3888e7;
+}
+
+.remove__btn:hover {
+    color: crimson;
+}
+
+.done__btn,
+.add__interest__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+    color: #3888e7;
+}
+
+.done__btn:hover,
+.add__interest__btn:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 50%;
+}

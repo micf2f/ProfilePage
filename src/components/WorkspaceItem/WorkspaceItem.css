@@ -1,0 +1,33 @@
+.item__title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.item__card {
+    position: relative;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 125px;
+}
+
+.item__card > .add__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    left: 195px;
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+}
+
+.item__card > .add__btn:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 50%;
+}

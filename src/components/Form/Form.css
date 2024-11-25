@@ -1,0 +1,32 @@
+form {
+    background: linear-gradient(200deg, #e8f1f3, #a8c6e3);
+    border-radius: 10px;
+    padding: 20px 10px;
+    color: #49535c;
+}
+
+input {
+    font-family: 'Calibri', sans-serif;
+}
+
+.potential__interests {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.form__btn {
+    color: white;
+    background-color: #49535c;
+    padding: 10px  20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.form__btn:hover {
+    background-color: #3888e7;
+}

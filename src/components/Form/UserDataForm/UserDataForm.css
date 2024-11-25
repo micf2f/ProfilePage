@@ -1,0 +1,41 @@
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #49535c;
+    border-radius: 5px;
+    background: transparent;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #4724fb;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+}
+
+p.info__p {
+    font-size: 0.9rem;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.error {
+    color: crimson;
+    font-size: 1rem;
+    margin-top: 4px;
+    margin-left: 10px;
+    list-style: none;
+    padding: 0;
+}
+.error li {
+    margin-bottom: 4px;
+    font-family: 'Calibri', sans-serif;
+}
